@@ -12,7 +12,7 @@ horasExtras = Convert.ToInt32(Console.ReadLine());
 
 salario = salariofinal();
 
-Console.WriteLine($"O salario é {salario:C2} por hora");
+Console.WriteLine($"O salario é {salario:C2}");
 
 double salariofinal(){
     double salarionormal = salariohoraBase * horas;
